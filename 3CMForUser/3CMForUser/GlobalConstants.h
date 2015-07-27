@@ -22,7 +22,7 @@
 #import "CQTNetworkKit.h"
 #import "CQTUIKit.h"
 #import "bee.h"
-
+#import "CMDataManager.h"
 
 
 #endif

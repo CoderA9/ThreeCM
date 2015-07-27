@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		184646BB1B662C200000C09E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184646BA1B662C200000C09E /* main.m */; };
 		184646BE1B662C200000C09E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184646BD1B662C200000C09E /* AppDelegate.m */; };
-		184646C11B662C200000C09E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184646C01B662C200000C09E /* ViewController.m */; };
+		184646C11B662C200000C09E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184646C01B662C200000C09E /* HomeViewController.m */; };
 		184646C41B662C200000C09E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184646C21B662C200000C09E /* Main.storyboard */; };
 		184646C61B662C200000C09E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184646C51B662C200000C09E /* Images.xcassets */; };
 		184646C91B662C200000C09E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184646C71B662C200000C09E /* LaunchScreen.xib */; };
 		184646D51B662C200000C09E /* _CMForUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184646D41B662C200000C09E /* _CMForUserTests.m */; };
+		184646E21B662FF20000C09E /* CMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 184646E11B662FF20000C09E /* CMDataManager.m */; };
+		184646E51B6630990000C09E /* CMAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 184646E41B6630990000C09E /* CMAPI.m */; };
 		47145F87801564A91F1B9EFC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418335A68BDA326BEB0420AC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -33,8 +35,8 @@
 		184646BA1B662C200000C09E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		184646BC1B662C200000C09E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		184646BD1B662C200000C09E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		184646BF1B662C200000C09E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		184646C01B662C200000C09E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184646BF1B662C200000C09E /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		184646C01B662C200000C09E /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		184646C31B662C200000C09E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		184646C51B662C200000C09E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		184646C81B662C200000C09E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,6 +45,10 @@
 		184646D41B662C200000C09E /* _CMForUserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _CMForUserTests.m; sourceTree = "<group>"; };
 		184646DE1B662E4E0000C09E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		184646DF1B662EBE0000C09E /* GlobalConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		184646E01B662FF20000C09E /* CMDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDataManager.h; sourceTree = "<group>"; };
+		184646E11B662FF20000C09E /* CMDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDataManager.m; sourceTree = "<group>"; };
+		184646E31B6630990000C09E /* CMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAPI.h; sourceTree = "<group>"; };
+		184646E41B6630990000C09E /* CMAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAPI.m; sourceTree = "<group>"; };
 		418335A68BDA326BEB0420AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8534E0618D655CED9FFFC4F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FA214A291BD85B3A253098F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,9 +98,13 @@
 			children = (
 				184646BC1B662C200000C09E /* AppDelegate.h */,
 				184646BD1B662C200000C09E /* AppDelegate.m */,
-				184646BF1B662C200000C09E /* ViewController.h */,
-				184646C01B662C200000C09E /* ViewController.m */,
+				184646BF1B662C200000C09E /* HomeViewController.h */,
+				184646C01B662C200000C09E /* HomeViewController.m */,
 				184646DF1B662EBE0000C09E /* GlobalConstants.h */,
+				184646E01B662FF20000C09E /* CMDataManager.h */,
+				184646E11B662FF20000C09E /* CMDataManager.m */,
+				184646E31B6630990000C09E /* CMAPI.h */,
+				184646E41B6630990000C09E /* CMAPI.m */,
 				184646C21B662C200000C09E /* Main.storyboard */,
 				184646C51B662C200000C09E /* Images.xcassets */,
 				184646C71B662C200000C09E /* LaunchScreen.xib */,
@@ -282,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184646C11B662C200000C09E /* ViewController.m in Sources */,
+				184646E51B6630990000C09E /* CMAPI.m in Sources */,
+				184646C11B662C200000C09E /* HomeViewController.m in Sources */,
 				184646BE1B662C200000C09E /* AppDelegate.m in Sources */,
 				184646BB1B662C200000C09E /* main.m in Sources */,
+				184646E21B662FF20000C09E /* CMDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
