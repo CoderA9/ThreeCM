@@ -14,7 +14,11 @@
  */
 @interface CMDataManager : NSObject
 
+@property (nonatomic,retain)NSString *platformStr;
 
 /* 初始化单例 */
 + (instancetype)sharedManager;
+
+/* 获取手机UUID */
++ (NSString *)getUUIDString;
 @end

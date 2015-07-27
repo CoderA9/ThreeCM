@@ -14,6 +14,8 @@
 #ifndef _CMForUser_GlobalConstants_h
 #define _CMForUser_GlobalConstants_h
 
+#pragma mark - | ***** 公共头文件 ***** |
+
 #import "CQTCoreData.h"
 #import "CQTFoundation.h"
 #import "JSON.h"
@@ -22,7 +24,11 @@
 #import "CQTNetworkKit.h"
 #import "CQTUIKit.h"
 #import "bee.h"
-#import "CMDataManager.h"
 
+#import "CMAPI.h"
+#import "CMDataManager.h"
+#import "CMDataStructure.h"
+
+#pragma mark - | ***** 宏定义 ***** |
 
 #endif
