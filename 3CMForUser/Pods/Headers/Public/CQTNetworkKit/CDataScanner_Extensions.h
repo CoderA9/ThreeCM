@@ -1,0 +1,1 @@
+../../../CQTNetworkKit/CQTNetworkKit/Class/CQTNetworkKit/CDataScanner_Extensions.h

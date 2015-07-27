@@ -1,0 +1,1 @@
+../../../CQTUIKit/CQTUIKit/Class/CBAutoScrollLabel.h

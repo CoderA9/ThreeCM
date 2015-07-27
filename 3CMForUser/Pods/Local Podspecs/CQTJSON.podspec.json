@@ -1,0 +1,16 @@
+{
+  "name": "CQTJSON",
+  "version": "1.0.0",
+  "license": "ANine",
+  "summary": "CQTJSON",
+  "homepage": "",
+  "authors": {
+    "ANine": "gangruo@126.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "osx": "10.8",
+    "ios": "6.0"
+  },
+  "source_files": "CQTJSON/Class/*.{h,m,mm,c}"
+}

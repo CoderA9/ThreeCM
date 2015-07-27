@@ -1,0 +1,82 @@
+PODS:
+  - CQTCoreData (1.0.0):
+    - CQTCoreData/NARC (= 1.0.0)
+  - CQTCoreData/NARC (1.0.0)
+  - CQTFoundation (1.0.0):
+    - CQTFoundation/NARC (= 1.0.0)
+  - CQTFoundation/NARC (1.0.0)
+  - CQTJSON (1.0.0)
+  - CQTLocationKit (1.0.0)
+  - CQTMediaKit (1.0.0)
+  - CQTNetworkKit (1.0.0):
+    - CQTNetworkKit/NARC (= 1.0.0)
+  - CQTNetworkKit/NARC (1.0.0)
+  - CQTUIKit (1.0.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - CQTCoreData (from `https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTCoreData`)
+  - CQTFoundation (from `https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTFoundation`)
+  - CQTJSON (from `https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTJSON`)
+  - CQTLocationKit (from `https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTLocationKit`)
+  - CQTMediaKit (from `https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTMediaKit`)
+  - CQTNetworkKit (from `https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTNetworkKit`)
+  - CQTUIKit (from `https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTUIKit`)
+  - ReactiveCocoa (~> 2.5)
+
+EXTERNAL SOURCES:
+  CQTCoreData:
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTCoreData
+  CQTFoundation:
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTFoundation
+  CQTJSON:
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTJSON
+  CQTLocationKit:
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTLocationKit
+  CQTMediaKit:
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTMediaKit
+  CQTNetworkKit:
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTNetworkKit
+  CQTUIKit:
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTUIKit
+
+CHECKOUT OPTIONS:
+  CQTCoreData:
+    :revision: '3142'
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTCoreData
+  CQTFoundation:
+    :revision: '3142'
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTFoundation
+  CQTJSON:
+    :revision: '3142'
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTJSON
+  CQTLocationKit:
+    :revision: '3142'
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTLocationKit
+  CQTMediaKit:
+    :revision: '3142'
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTMediaKit
+  CQTNetworkKit:
+    :revision: '3142'
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTNetworkKit
+  CQTUIKit:
+    :revision: '3142'
+    :svn: https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTUIKit
+
+SPEC CHECKSUMS:
+  CQTCoreData: e59a9ccae8de0a118cb6cade43b30ee98619a43a
+  CQTFoundation: 157fd365207e4062f40af7cb1cc12f43c2a150ad
+  CQTJSON: 4e1cd16e7ee39c1a5415ff5ce9d437e4eee4da7b
+  CQTLocationKit: 71663ecbb7ea3ae90c437460452b19490c230403
+  CQTMediaKit: 88a3f3a4ed7fd6a09afd047d10a36f905acc55d2
+  CQTNetworkKit: fb417137b0713511cc8ff56a8297246fe055ba3e
+  CQTUIKit: 3f36eb47f29adb5963ffe0f09ac3b8f95980c0c7
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+COCOAPODS: 0.37.2

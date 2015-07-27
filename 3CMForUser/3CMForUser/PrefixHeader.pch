@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  3CMForUser
+//
+//  Created by ANine on 7/27/15.
+//  Copyright (c) 2015 apple. All rights reserved.
+//
+
+#ifndef _CMForUser_PrefixHeader_pch
+#define _CMForUser_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+    #import "GlobalConstants.h"
+
+#endif

@@ -1,0 +1,23 @@
+{
+  "name": "CQTLocationKit",
+  "version": "1.0.0",
+  "license": "ANine",
+  "summary": "CQTLocationKit",
+  "homepage": "",
+  "authors": {
+    "ANine": "gangruo@126.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "osx": "10.8",
+    "ios": "6.0"
+  },
+  "ios": {
+    "frameworks": [
+      "MapKit",
+      "CoreLocation"
+    ]
+  },
+  "prefix_header_file": "CQTLocationKit/location.pch",
+  "source_files": "CQTLocationKit/Class/*.{h,m,mm,c}"
+}

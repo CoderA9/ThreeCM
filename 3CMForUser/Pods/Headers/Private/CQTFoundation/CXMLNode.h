@@ -1,0 +1,1 @@
+../../../CQTFoundation/CQTFoundation/bee/CXMLNode.h

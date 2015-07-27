@@ -1,0 +1,21 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#import "Pods-environment.h"
+//
+//  MediaKit.pch
+//  CQTMediaKit
+//
+//  Created by ANine on 6/10/15.
+//  Copyright (c) 2015 apple. All rights reserved.
+//
+
+#ifndef CQTMediaKit_MediaKit_pch
+#define CQTMediaKit_MediaKit_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+    #import "CQTFoundation.h"
+    #import "bee.h"
+#endif

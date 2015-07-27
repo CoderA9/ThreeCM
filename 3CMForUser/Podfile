@@ -1,0 +1,30 @@
+workspace '3CMForUser.xcworkspace'
+xcodeproj '3CMForUser.xcodeproj'
+
+inhibit_all_warnings!
+platform:ios,'6.0'
+#pod install --verbose --no-repo-update
+
+#本地库
+pod 'CQTFoundation',  :svn => 'https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTFoundation'
+pod 'CQTCoreData',  :svn => 'https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTCoreData'
+pod 'CQTLocationKit',  :svn => 'https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTLocationKit'
+pod 'CQTUIKit',  :svn => 'https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTUIKit'
+pod 'CQTMediaKit',  :svn => 'https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTMediaKit'
+pod 'CQTNetworkKit',  :svn => 'https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTNetworkKit'
+pod 'CQTJSON',  :svn => 'https://luogang@192.168.1.165/svn/project/mobile/ios/DependenceRepo/CQTJSON'
+
+
+
+
+#远程库
+pod 'ReactiveCocoa', '~> 2.5'
+
+
+post_install do |installer|
+    installer.project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['ENABLE_STRICT_OBJC_MSGSEND'] = "NO"
+        end
+    end
+end

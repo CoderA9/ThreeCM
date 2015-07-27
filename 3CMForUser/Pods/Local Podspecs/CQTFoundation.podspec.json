@@ -1,0 +1,42 @@
+{
+  "name": "CQTFoundation",
+  "version": "1.0.0",
+  "license": "ANine",
+  "summary": "CQTimesFoundation",
+  "homepage": "",
+  "authors": {
+    "ANine": "gangruo@126.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "osx": "10.8",
+    "ios": "6.0"
+  },
+  "ios": {
+    "frameworks": [
+      "AVFoundation",
+      "AssetsLibrary",
+      "Foundation"
+    ]
+  },
+  "libraries": [
+    "xml2",
+    "sqlite3"
+  ],
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"/usr/include/libxml2\"",
+    "OTHER_LDFLAGS": "\"-lc++\" \"-ObjC\" \"-licucore\""
+  },
+  "source_files": [
+    "CQTFoundation/CQTFoundation.h",
+    "CQTFoundation/bee/*.{h,m,mm,c}",
+    "CQTFoundation/Content/*.{h,m,mm,c}"
+  ],
+  "subspecs": [
+    {
+      "name": "NARC",
+      "source_files": "CQTFoundation/NARC/*.{h,m,mm}",
+      "requires_arc": false
+    }
+  ]
+}

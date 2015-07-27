@@ -1,0 +1,1 @@
+../../../CQTFoundation/CQTFoundation/bee/CXMLDocument_PrivateExtensions.h

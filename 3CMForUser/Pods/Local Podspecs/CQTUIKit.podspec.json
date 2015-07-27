@@ -1,0 +1,23 @@
+{
+  "name": "CQTUIKit",
+  "version": "1.0.0",
+  "license": "ANine",
+  "summary": "CQTUIKit",
+  "homepage": "",
+  "authors": {
+    "ANine": "gangruo@126.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "osx": "10.8",
+    "ios": "6.0"
+  },
+  "ios": {
+    "frameworks": "QuartzCore"
+  },
+  "xcconfig": {
+    "ENABLE_STRICT_OBJC_MSGSEND": "NO"
+  },
+  "prefix_header_file": "CQTUIKit/UIKit.pch",
+  "source_files": "CQTUIKit/Class/*.{h,m,mm,c}"
+}

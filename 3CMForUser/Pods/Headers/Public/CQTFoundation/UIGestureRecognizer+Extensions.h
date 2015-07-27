@@ -1,0 +1,1 @@
+../../../CQTFoundation/CQTFoundation/Content/UIGestureRecognizer+Extensions.h

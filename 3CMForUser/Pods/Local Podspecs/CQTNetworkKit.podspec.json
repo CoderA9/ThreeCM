@@ -1,0 +1,34 @@
+{
+  "name": "CQTNetworkKit",
+  "version": "1.0.0",
+  "license": "ANine",
+  "summary": "CQTNetworkKit",
+  "homepage": "",
+  "authors": {
+    "ANine": "gangruo@126.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "osx": "10.8",
+    "ios": "6.0"
+  },
+  "ios": {
+    "frameworks": [
+      "CFNetwork",
+      "ImageIO"
+    ]
+  },
+  "prefix_header_file": "CQTNetworkKit/Network.pch",
+  "source_files": [
+    "CQTNetworkKit/Class/CQTNetworkKit.h",
+    "CQTNetworkKit/Class/CQTNetworkKit/*.{h,m,mm,c}",
+    "CQTNetworkKit/Class/GRFTP/*.{h,m,mm,c}"
+  ],
+  "subspecs": [
+    {
+      "name": "NARC",
+      "source_files": "CQTNetworkKit/NARC/*.{h,m,mm,c}",
+      "requires_arc": false
+    }
+  ]
+}

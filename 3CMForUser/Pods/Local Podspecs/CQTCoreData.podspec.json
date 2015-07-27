@@ -1,0 +1,30 @@
+{
+  "name": "CQTCoreData",
+  "version": "1.0.0",
+  "license": "ANine",
+  "summary": "CQTCoreData",
+  "homepage": "",
+  "authors": {
+    "ANine": "gangruo@126.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "osx": "10.8",
+    "ios": "6.0"
+  },
+  "ios": {
+    "frameworks": "Security"
+  },
+  "xcconfig": {
+    "ENABLE_STRICT_OBJC_MSGSEND": "NO"
+  },
+  "prefix_header_file": "CQTCoreData/CQTCoreData.pch",
+  "source_files": "CQTCoreData/Class/*.{h,m,mm,c}",
+  "subspecs": [
+    {
+      "name": "NARC",
+      "source_files": "CQTCoreData/NARC/*.{h,m,mm,c}",
+      "requires_arc": false
+    }
+  ]
+}

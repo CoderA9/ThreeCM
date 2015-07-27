@@ -1,0 +1,1 @@
+../../../CQTLocationKit/CQTLocationKit/Class/CQTLocationKit.h
