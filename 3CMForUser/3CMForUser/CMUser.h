@@ -10,7 +10,7 @@
 /**
  @brief 用于处理用户信息类
  
- @discussion <#some notes or alert with this class#>
+ @discussion 
  */
 
 #define NNKEY_USER_INFO_DID_CHANGED @"kNotificationUserInfoDidChanged"
@@ -24,6 +24,7 @@ static NSString * kDefaultUserKey = @"kDefaultUserKey";
 }
 
 @property (nonatomic,strong) USER *defaultAccount;
+
 @property (nonatomic,strong) NSString *userId;
 
 + (instancetype)sharedUser;

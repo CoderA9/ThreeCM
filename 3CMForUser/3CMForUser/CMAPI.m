@@ -126,19 +126,12 @@
         
         [self performSelector:@selector(parseNetworkError:) withObject:error afterDelay:0.5];
         
-        
-        /* 如果某个类需要取消错误提示,则调用此方法. */
-        //        [NSObject cancelPreviousPerformRequestsWithTarget:[IDaAPI sharedAPI] selector:@selector(parseNetworkError:) object:dataBody[@"error"]];
-        
-        
         if (failureBlock) {
             NSDictionary *dic = @{
                                   @"error":error
                                   };
             failureBlock(dic);
         }
-        
-        // tag event for statistics
     };
     
     NSMutableDictionary *dic = [self parameterDictionary];
