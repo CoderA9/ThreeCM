@@ -8,6 +8,8 @@
 
 #import "CMUser.h"
 
+#import "CMDataStructure.h"
+
 @implementation CMUser
 
 + (instancetype)sharedUser {

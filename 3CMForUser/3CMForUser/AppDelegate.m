@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "HomeViewController.h"
+#import "CQTMultiLayerNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
     
     HomeViewController *vc  = [[HomeViewController alloc] init];
-    UINavigationController *nv = [[UINavigationController alloc] initWithRootViewController:vc];
+    CQTMultiLayerNavigationController *nv = [[CQTMultiLayerNavigationController alloc] initWithRootViewController:vc];
+    nv.navigationBarHidden = YES;
     
     self.window.rootViewController = nv;
     

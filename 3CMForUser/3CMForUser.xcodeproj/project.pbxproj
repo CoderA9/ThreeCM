@@ -16,6 +16,11 @@
 		18BF6D1B1B6643B20069AE70 /* CMAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 184646E41B6630990000C09E /* CMAPI.m */; };
 		18BF6D251B664B060069AE70 /* CMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF6D241B664B060069AE70 /* CMUser.m */; };
 		18BF6D2B1B664BCB0069AE70 /* CMDataStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF6D2A1B664BCB0069AE70 /* CMDataStructure.m */; };
+		18BF6D2E1B666ED50069AE70 /* CMUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF6D2D1B666ED50069AE70 /* CMUserModel.m */; };
+		18BF6D311B67107E0069AE70 /* CMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF6D301B67107E0069AE70 /* CMBaseViewController.m */; };
+		18BF6D341B6719D10069AE70 /* CMBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF6D331B6719D10069AE70 /* CMBaseTableViewController.m */; };
+		18BF6D3A1B671A7D0069AE70 /* CQTLoadMoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF6D371B671A7D0069AE70 /* CQTLoadMoreButton.m */; };
+		18BF6D3B1B671A7D0069AE70 /* CQTPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF6D391B671A7D0069AE70 /* CQTPullToRefreshView.m */; };
 		47145F87801564A91F1B9EFC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418335A68BDA326BEB0420AC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +59,16 @@
 		18BF6D241B664B060069AE70 /* CMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUser.m; sourceTree = "<group>"; };
 		18BF6D291B664BCB0069AE70 /* CMDataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDataStructure.h; sourceTree = "<group>"; };
 		18BF6D2A1B664BCB0069AE70 /* CMDataStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDataStructure.m; sourceTree = "<group>"; };
+		18BF6D2C1B666ED50069AE70 /* CMUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUserModel.h; sourceTree = "<group>"; };
+		18BF6D2D1B666ED50069AE70 /* CMUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUserModel.m; sourceTree = "<group>"; };
+		18BF6D2F1B67107E0069AE70 /* CMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBaseViewController.h; sourceTree = "<group>"; };
+		18BF6D301B67107E0069AE70 /* CMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBaseViewController.m; sourceTree = "<group>"; };
+		18BF6D321B6719D10069AE70 /* CMBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBaseTableViewController.h; sourceTree = "<group>"; };
+		18BF6D331B6719D10069AE70 /* CMBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBaseTableViewController.m; sourceTree = "<group>"; };
+		18BF6D361B671A7D0069AE70 /* CQTLoadMoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQTLoadMoreButton.h; sourceTree = "<group>"; };
+		18BF6D371B671A7D0069AE70 /* CQTLoadMoreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQTLoadMoreButton.m; sourceTree = "<group>"; };
+		18BF6D381B671A7D0069AE70 /* CQTPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQTPullToRefreshView.h; sourceTree = "<group>"; };
+		18BF6D391B671A7D0069AE70 /* CQTPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQTPullToRefreshView.m; sourceTree = "<group>"; };
 		418335A68BDA326BEB0420AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8534E0618D655CED9FFFC4F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FA214A291BD85B3A253098F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +167,8 @@
 		18BF6D1C1B6647C90069AE70 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				18BF6D2C1B666ED50069AE70 /* CMUserModel.h */,
+				18BF6D2D1B666ED50069AE70 /* CMUserModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -169,6 +186,10 @@
 		18BF6D1E1B6647C90069AE70 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				18BF6D2F1B67107E0069AE70 /* CMBaseViewController.h */,
+				18BF6D301B67107E0069AE70 /* CMBaseViewController.m */,
+				18BF6D321B6719D10069AE70 /* CMBaseTableViewController.h */,
+				18BF6D331B6719D10069AE70 /* CMBaseTableViewController.m */,
 				184646BF1B662C200000C09E /* HomeViewController.h */,
 				184646C01B662C200000C09E /* HomeViewController.m */,
 			);
@@ -178,6 +199,7 @@
 		18BF6D1F1B6647C90069AE70 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18BF6D351B671A7D0069AE70 /* OtherViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +223,17 @@
 			children = (
 			);
 			path = ThirdPartyResource;
+			sourceTree = "<group>";
+		};
+		18BF6D351B671A7D0069AE70 /* OtherViews */ = {
+			isa = PBXGroup;
+			children = (
+				18BF6D361B671A7D0069AE70 /* CQTLoadMoreButton.h */,
+				18BF6D371B671A7D0069AE70 /* CQTLoadMoreButton.m */,
+				18BF6D381B671A7D0069AE70 /* CQTPullToRefreshView.h */,
+				18BF6D391B671A7D0069AE70 /* CQTPullToRefreshView.m */,
+			);
+			path = OtherViews;
 			sourceTree = "<group>";
 		};
 		4B38DCBC834E57CB81A594BD /* Pods */ = {
@@ -356,13 +389,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BF6D2E1B666ED50069AE70 /* CMUserModel.m in Sources */,
 				18BF6D1B1B6643B20069AE70 /* CMAPI.m in Sources */,
+				18BF6D3A1B671A7D0069AE70 /* CQTLoadMoreButton.m in Sources */,
+				18BF6D3B1B671A7D0069AE70 /* CQTPullToRefreshView.m in Sources */,
 				184646C11B662C200000C09E /* HomeViewController.m in Sources */,
 				184646BE1B662C200000C09E /* AppDelegate.m in Sources */,
 				184646BB1B662C200000C09E /* main.m in Sources */,
 				18BF6D2B1B664BCB0069AE70 /* CMDataStructure.m in Sources */,
+				18BF6D341B6719D10069AE70 /* CMBaseTableViewController.m in Sources */,
 				18BF6D251B664B060069AE70 /* CMUser.m in Sources */,
 				184646E21B662FF20000C09E /* CMDataManager.m in Sources */,
+				18BF6D311B67107E0069AE70 /* CMBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

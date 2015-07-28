@@ -24,11 +24,27 @@
 #import "CQTNetworkKit.h"
 #import "CQTUIKit.h"
 #import "bee.h"
+#import "ReactiveCocoa.h"
 
+#import "CMUser.h"
 #import "CMAPI.h"
 #import "CMDataManager.h"
 #import "CMDataStructure.h"
+#import "CMBaseViewController.h"
 
 #pragma mark - | ***** 宏定义 ***** |
+/* 3CM  字体颜色 */
+#define kTextColorHenvy HEX_RGB(0x303030)//标题字
+#define kTextColorNormal HEX_RGB(0x434242)//正文字
+#define kTextColorSoft  HEX_RGB(0xafa5a5)//小字,若现字
+#define kTextColorEmphasize HEX_RGB(0xff4200)//强调字
+
+/* 3CM  按钮主背景. */
+#define kBgMainColor  HEX_RGB(0xEFEFEF)
+#define kBgMainGrayColor HEX_RGB(0x867474)
+#define kBgMainYellowColor HEX_RGB(0xFFB507)
+#define kBgMainOrangeColor HEX_RGB(0x954a2d)
+
+
 
 #endif

@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+
+@class USER;
 /**
  @brief 用于处理用户信息类
  
